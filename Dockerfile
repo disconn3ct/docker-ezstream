@@ -6,7 +6,7 @@ ARG UID=1000
 ARG GID=1000
 
 RUN apk -q update \
-    && apk --no-cache --no-progress add ezstream vorbis-tools \
+    && apk --no-cache --no-progress add ezstream vorbis-tools lame \
     && rm -rf /var/cache/apk/*
 
 VOLUME ["/ezstream", "/music"]
