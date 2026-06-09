@@ -1,4 +1,4 @@
-FROM alpine:3.21
+FROM alpine:3.24
 
 LABEL maintainer="Ben Speakman <ben@3sq.re>"
 
